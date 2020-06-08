@@ -31,11 +31,11 @@ O objetivo do App é criar uma lista selecionada de consumidores alvos com carac
 
 **Principais tecnologias utilizadas**
 
-pandas==1.0.4
-numpy==1.18.5
-joblib==0.15.1
-streamlit==0.61.0
-seaborn==0.10.1
-matplotlib==3.2.1
-scikit_learn==0.23.1
+- pandas==1.0.4
+- numpy==1.18.5
+- joblib==0.15.1
+- streamlit==0.61.0
+- seaborn==0.10.1
+- matplotlib==3.2.1
+- scikit_learn==0.23.1
 
