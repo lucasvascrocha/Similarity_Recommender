@@ -41,3 +41,15 @@ O objetivo do App é criar uma lista selecionada de consumidores alvos com carac
 - matplotlib==3.2.1
 - scikit_learn==0.23.1
 
+**Imagens do aplicativo**
+
+Tela inicial
+<p align="center"> 
+<img src="https://github.com/lucasvascrocha/teste/blob/master/tela%20inicial.png">
+</p>
+
+Previsão
+<p align="center"> 
+<img src="https://github.com/lucasvascrocha/teste/blob/master/tela%20recomend.png">
+</p>
+
