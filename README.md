@@ -15,10 +15,12 @@ O aplicativo foi desenvolvido na linguagem de programação Python através do A
 
 O App streamlit é capaz de criar um aplicativo com uma interface genérica e dinâmica através de uma linguagem simples que suporta python dentre outras linguagens.
 
-O problema foi resolvido através de aprendizagem não supervisionada pelo modelo kmeans
+O problema foi resolvido através de aprendizagem não supervisionada pelo modelo kmeans.
 
 A métrica de avaliação utilizada foi a % de filtragem de recomendação e % de similaridade dos consumidores recomendados com
 os clientes já fidelizados, de forma a recomendar uma lista de tamanho considerável (<30% da lista com todos os alvos)  sendo ela o mais similar possível(> 70% de similaridade).
+
+O desenvolvimento do código ocorreu na forma de criação de classes e orientação objeto a fim de facilitar o entendimento e melhoria do desempenho do código, visto que o quesito velocidade seria importante dado o tamanho dos dados utilizados para treinamento do modelo, por este motivo todos os arquivos csv foram ignorados para este repositório.
 
 **Objetivo**
 
