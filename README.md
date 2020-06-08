@@ -2,29 +2,23 @@
 
 **Aplicativo capaz de fazer recomendação por similaridade**
 
-O objetivo deste aplicativo é encontrar, em uma lista de diversos consumidores, os mais similares aos clientes já fidelizados de uma dada empresa. Com isso, o funcionamento da aplicação depende de um formato de dados de entrada específico, não sendo um modelo genérico.
+O objetivo deste aplicativo é encontrar, em uma lista de diversos consumidores, os mais similares aos clientes já fidelizados de uma dada empresa. Com isso a aquisição de novos clientes será otimizada, possibilitando o direcionamento de ações para um determinado perfil de cliente. 
 
+O funcionamento da aplicação depende de um formato de dados de entrada específico, não sendo um modelo genérico.
 Há a possibilidade de fazer teste do aplicativo com nossos dados.
 
-Acesso ao deploy pelo link:
+acesso ao deploy pelo link:
 http://similarity-recommender.herokuapp.com/
 
 ## Desenvolvimento
 
-O aplicativo foi desenvolvido na linguagem de programação Python através do App Streamlit e seu deploy feito para a plataforma de nuvem Heroku.
+O aplicativo foi desenvolvido na linguagem de programação Python através do App Streamlit e seu deploy feito para a plataforma de nuvem Heroku. O App Streamlit é capaz de criar um aplicativo com uma interface genérica e dinâmica através de uma linguagem simples que suporta python dentre outras linguagens.
 
-O App streamlit é capaz de criar um aplicativo com uma interface genérica e dinâmica através de uma linguagem simples que suporta python dentre outras linguagens.
+O problema foi resolvido através de aprendizagem não supervisionada pelo modelo K-means.
+A métrica de avaliação utilizada foi a proporção de novos clientes recomendados e porcentagem de similaridade destes com
+os clientes já fidelizados, de forma a recomendar uma lista de tamanho considerável (< 30% da lista com todos os alvos)  sendo ela o mais similar possível (> 70% de similaridade).
 
-O problema foi resolvido através de aprendizagem não supervisionada pelo modelo kmeans.
-
-A métrica de avaliação utilizada foi a % de filtragem de recomendação e % de similaridade dos consumidores recomendados com
-os clientes já fidelizados, de forma a recomendar uma lista de tamanho considerável (<30% da lista com todos os alvos)  sendo ela o mais similar possível(> 70% de similaridade).
-
-O desenvolvimento do código ocorreu na forma de criação de classes e orientação objeto a fim de facilitar o entendimento e melhoria do desempenho do código, visto que o quesito velocidade seria importante dado o tamanho dos dados utilizados para treinamento do modelo, por este motivo todos os arquivos csv foram ignorados para este repositório.
-
-**Objetivo**
-
-O objetivo do App é criar uma lista selecionada de consumidores alvos com características mais similares possíveis com os clientes de uma dada empresa já fidelizados. Com isso a busca de novos clientes será otimizada, além da possibilidade de direcionamento de ações para determinados perfis de cliente.
+O desenvolvimento do código ocorreu na forma de criação de classes utilizando orientação à objeto afim de facilitar o entendimento e melhorar o desempenho do código, visto que a performance é um quesito importante dado o tamanho dos dados utilizados para treinamento do modelo. Por este motivo todos os arquivos csv foram ignorados para este repositório.
 
 **Canvas**
 <p align="center"> 
