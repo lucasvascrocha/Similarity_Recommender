@@ -39,11 +39,11 @@ O desenvolvimento do código ocorreu na forma de criação de classes utilizando
 
 Tela inicial
 <p align="center"> 
-<img src="https://github.com/lucasvascrocha/teste/blob/master/tela%20inicial.png">
+<img src="https://github.com/lucasvascrocha/teste/blob/master/imagens/inicial.png">
 </p>
 
 Previsão
 <p align="center"> 
-<img src="https://github.com/lucasvascrocha/teste/blob/master/tela%20recomend.png">
+<img src="https://github.com/lucasvascrocha/teste/blob/master/imagens/recomend.png">
 </p>
 
